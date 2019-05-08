@@ -1,0 +1,54 @@
+.keyboard__button{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    background: #63636e;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    font-weight: 500;
+    font-size: 6rem;
+    cursor: pointer;
+}
+.keyboard__button:nth-child(3n){
+    margin-right: 0;
+    float: right;
+}
+
+
+.keyboard__button:after{
+    font-family: "Font Awesome 5 Free";
+    font-size:1.2rem;
+    color: #434343;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-weight: bold;
+}
+.keyboard__button:nth-child(2):after{
+    content: '\f30c';
+}
+.keyboard__button:nth-child(4):after{
+    content: '\f30a';
+}
+.keyboard__button:nth-child(6):after{
+    content: '\f30b';
+}
+.keyboard__button:nth-child(8):after{
+    content: '\f309';
+}
+.keyboard__button:nth-child(10):after{
+    content: 'B';
+}
+.keyboard__button:nth-child(12):after{
+    content: 'A';
+}

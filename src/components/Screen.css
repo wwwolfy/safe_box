@@ -1,0 +1,30 @@
+.screen{
+    width: 350px;
+    margin: 20px auto;
+    height: 150px;
+    position: relative;
+    color: #434343;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.screen__door-values{
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 0.5;
+    top:10px;
+    left: 10px;
+
+}
+.screen__password{
+    font-size: 4rem;
+}
+.screen__main-status{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,10 @@
+.keyboard{
+   width: 320px;
+   margin: 30px auto;
+   padding-left: 0;
+}
+.keyboard:after{
+ content: '';
+ display: block;
+ clear: both;
+}
