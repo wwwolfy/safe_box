@@ -2,6 +2,12 @@ Hotel Safe Deposit Box
 React app, web simulation of safe deposit box usually found in hotel rooms. They are  designed to keep small valuables and documents protected while guests are out of the room.  User interface is made simple to avoid the need for issuing mechanical keys or pin codes by  hotel’s staff. What follows are User’s manual and then control panel of safe deposit box.     
 
 
+
+Link to app: https://wwwolfy.github.io/safe_box/
+
+
+
+
 Locking:    1. Before closing doors enter any 6 digit passcode.  Remember the passcode! 
             2. Close the door and press lock button [L] to lock the safe.       
 Unlocking:  1. Enter your 6 digit passcode**   
